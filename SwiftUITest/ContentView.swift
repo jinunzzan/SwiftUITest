@@ -9,8 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Custom ViewModifier")
-            .modifier(CustomView(borderColor: .gray))
+//        Text("Custom ViewModifier")
+//            .modifier(CustomView(borderColor: .gray))
+        Text("My ViewModifiers")
+            .modifier(MyCodifier1().concat(MyModifier2()))
     }
 }
 

@@ -18,3 +18,13 @@ struct CustomView: ViewModifier {
             .background(Rectangle().fill(Color.gray))
             .border(borderColor, width: 2)
     }}
+struct MyCodifier1: ViewModifier{
+    func body(content: Content) -> some View {
+        content.font(.title)
+    }
+}
+struct MyModifier2: ViewModifier{
+    func body(content: Content) -> some View {
+        content.foregroundColor(.blue)
+    }
+}
