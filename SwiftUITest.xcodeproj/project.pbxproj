@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		590632CD2AA33087006B172A /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590632CC2AA33087006B172A /* CustomView.swift */; };
 		59D9E0D72A99D2D8006B7A43 /* SwiftUITestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D9E0D62A99D2D8006B7A43 /* SwiftUITestApp.swift */; };
 		59D9E0D92A99D2D8006B7A43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D9E0D82A99D2D8006B7A43 /* ContentView.swift */; };
 		59D9E0DB2A99D2D8006B7A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59D9E0DA2A99D2D8006B7A43 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		590632CC2AA33087006B172A /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		59D9E0D32A99D2D8006B7A43 /* SwiftUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59D9E0D62A99D2D8006B7A43 /* SwiftUITestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestApp.swift; sourceTree = "<group>"; };
 		59D9E0D82A99D2D8006B7A43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			children = (
 				59D9E0D62A99D2D8006B7A43 /* SwiftUITestApp.swift */,
 				59D9E0D82A99D2D8006B7A43 /* ContentView.swift */,
+				590632CC2AA33087006B172A /* CustomView.swift */,
 				59D9E0DA2A99D2D8006B7A43 /* Assets.xcassets */,
 				59D9E0DF2A99D2D8006B7A43 /* Persistence.swift */,
 				59D9E0E12A99D2D8006B7A43 /* SwiftUITest.xcdatamodeld */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				590632CD2AA33087006B172A /* CustomView.swift in Sources */,
 				59D9E0E02A99D2D8006B7A43 /* Persistence.swift in Sources */,
 				59D9E0D92A99D2D8006B7A43 /* ContentView.swift in Sources */,
 				59D9E0D72A99D2D8006B7A43 /* SwiftUITestApp.swift in Sources */,

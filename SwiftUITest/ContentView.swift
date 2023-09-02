@@ -7,11 +7,10 @@
 
 import SwiftUI
 
-struct ContentView: ViewModifier {
+struct ContentView: View {
     var body: some View {
-        NavigationView{
-            Text("Master")
-        }
+        Text("Custom ViewModifier")
+            .modifier(CustomView(borderColor: .gray))
     }
 }
 
